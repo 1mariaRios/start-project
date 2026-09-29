@@ -1,3 +1,6 @@
 from django.shortcuts import render
+from .models import Perfil
 
-# Create your views here.
+
+def crear_usuario(render):
+   c_user=models
