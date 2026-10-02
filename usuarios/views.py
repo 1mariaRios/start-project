@@ -1,6 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Perfil
+from .forms import Perfil_Form
+from django.http import HttpResponse
 
-
-def crear_usuario(render):
-   c_user=models
