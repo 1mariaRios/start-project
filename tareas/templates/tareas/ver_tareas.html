@@ -10,9 +10,24 @@
 
 {% block content %}
 
+
+
+<br>
+
+{% for tarea in tarea %}
 <div>
-    
+    <ul>
+        <li> {{ tarea.actividad }} </li>
+        <li> {{ tarea.encargado }} </li>
+        <li> {{ tarea.descripcion }} </li>
+        <li> {{ tarea.estado }} </li>
+    </ul>
 </div>
 
+{% endfor %}
+
 </body>
+
+{% endblock %}
+
 </html>
